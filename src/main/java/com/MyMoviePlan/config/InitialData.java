@@ -17,17 +17,17 @@ public class InitialData implements CommandLineRunner {
     @Override
     public void run(String... args) throws Exception {
 
-//        final UserEntity super_admin = new UserEntity("Riyaz J", "j.riyazu@gmail.com",
+//        final UserEntity super_admin = new UserEntity("Praneeth", "peddipraneeth1331@gmail.com",
 //                "8099531318", "Male", passwordEncoder.encode("super"), true,
 //                true, true, true, true,
 //                ROLE_SUPER_ADMIN);
 //
-//        final UserEntity admin = new UserEntity("Fayaz J", "j.fayaz@gmail.com",
+//        final UserEntity admin = new UserEntity("praneeth2", "peddipraneeth1331@gmail.com",
 //                "9019168638", "Male", passwordEncoder.encode("admin"), true,
 //                true, true, true, true,
 //                ROLE_ADMIN);
 //
-//        final UserEntity user = new UserEntity("Inthiyaz J", "j.inthiyaz@gmail.com",
+//        final UserEntity user = new UserEntity("praneeth3", "praneeth1331@gmail.com",
 //                "8985462507", "Male", passwordEncoder.encode("user"), true,
 //                true, true, true, true,
 //                ROLE_USER);

@@ -129,7 +129,7 @@ public class ShowController {
                                      @RequestBody final BookingEntity booking) {
         final MovieShowsEntity moveShow = this.findMovieShowById(show_id, movie_show_id);
 //        booking.setUserId(this.service.getLoggedInUser().getId());
-        booking.setUserId(this.service.findByMobile("8099531318").get().getId());
+        booking.setUserId(this.service.findByMobile("7337249775").get().getId());
         booking.setMovieShow(moveShow);
         return this.booking.save(booking);
     }

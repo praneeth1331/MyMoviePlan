@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('git repo clone') {
             steps {
-                git branch: 'main', url: 'https://github.com/JRiyaz/my-movie-plan-backend.git'
+                git branch: 'main', url: 'https://github.com/praneeth1331/my-movie-plan-backend.git'
             }
         }
         stage('clean') {
